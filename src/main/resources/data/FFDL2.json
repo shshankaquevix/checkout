@@ -1,0 +1,140 @@
+{
+  "siteId": "FTD",
+  "product_type": "freshcut",
+  "country": "US",
+  "subcode": "FK1036",
+  "product_id": "FFDL2",
+  "product_price": 59.99,
+  "west_product": true,
+  "isMaster": true,
+  "pas_only_shipping_method": "Next-Day",
+  "isSameDay": false,
+  "markcode": "514",
+  "product_url": "mixed-bouquets-pcg/you-had-me-at-pink-bouquet/product-flowers-mixedbouquets/ffdl2/",
+  "productSubTypes": [
+    {
+      "name": "Shown",
+      "price": "59.99",
+      "discountedPrice": "59.99"
+    }
+  ],
+  "vases": [
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/VA1367T_99x99.jpg",
+      "addon_text": "Vase as shown",
+      "max_quantity": 1,
+      "desc": "Vase as shown",
+      "order": 1,
+      "id": "VA1367T",
+      "price": "$0.00",
+      "selected": 1,
+      "available": 1,
+      "type_desc": "Vase"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/AV5_99x99.jpg",
+      "addon_text": "Add on a pink Glass Vase",
+      "max_quantity": 1,
+      "desc": "Dreamy Pink Vase",
+      "order": 2,
+      "id": "AV5",
+      "price": "$8.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Vase"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/AV6_99x99.jpg",
+      "addon_text": "Luminous Silver Finish Vase",
+      "max_quantity": 1,
+      "desc": "Radiant Silver Vase",
+      "order": 3,
+      "id": "AV6",
+      "price": "$9.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Vase"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/AV9_99x99.jpg",
+      "addon_text": "Upgrade your bouquet with this colored vase.",
+      "max_quantity": 1,
+      "desc": "Gold Touch Vase",
+      "order": 4,
+      "id": "AV9",
+      "price": "$9.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Vase"
+    }
+  ],
+  "addOns": [
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/C11_99x99.jpg",
+      "addon_text": "Add a Box of Chocolates and we will sweeten their day with a 4-piece box of sumptuous Godiva Chocolates to accompany your bouquet.",
+      "max_quantity": 1,
+      "desc": "Godiva 4 Piece Box of Chocolates",
+      "order": 1,
+      "id": "C11",
+      "price": "$8.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Chocolate"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/PB111_99x99.jpg",
+      "addon_text": "Add a bear to your bouquet and we will select a cute & cuddly brown bear that will send the perfect sentiment.",
+      "max_quantity": 1,
+      "desc": "Adorable Plush Tan Bear",
+      "order": 2,
+      "id": "PB111",
+      "price": "$9.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Plush"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/P21_99x99.jpg",
+      "addon_text": "Capture memories together with this 3 x 4-inch silver metal photo frame.  Fits a 2 x 3-inch photo.",
+      "max_quantity": 1,
+      "desc": "Silver Metal Photo Frame",
+      "order": 3,
+      "id": "P21",
+      "price": "$4.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Photo"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/J525X_99x99.jpg",
+      "addon_text": "Featuring 25 round-cut Swarovski Crystals set in stunning sterling silver.  Heart-shaped pendant.  Total of 25 crystals.  18-inch sterling silver box chain with spring ring closure.  13/16 inch including bale.  Imported.",
+      "max_quantity": 1,
+      "desc": "Swarovski Crystal Elements Sterling Silver Pendant",
+      "order": 4,
+      "id": "J525X",
+      "price": "$29.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Other"
+    }
+  ],
+  "catalog": "FTDDirect",
+  "gbb": true,
+  "product_name": "You Had Me at Pink Bouquet"
+}

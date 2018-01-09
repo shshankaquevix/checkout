@@ -1,0 +1,21 @@
+apiVersion: extensions/v1beta1  
+kind: Deployment  
+metadata:  
+  name: cart-service
+  creationTimestamp: null
+  labels:
+     app: cart-service
+spec:  
+  replicas: 1
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: cart-service
+    spec:
+      containers:
+        - name: cart-service
+          image: gcr.io/ftdproject-187707/cart-service:v1
+          ports:
+          - containerPort: 8093
