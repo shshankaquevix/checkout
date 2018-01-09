@@ -1,8 +1,8 @@
 steps:
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['clean']
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['install']
+ - name: 'gcr.io/cloud-builders/mvn'
+  args: ["install", "github.com/shshankaquevix/checkout/"
+# - name: 'gcr.io/cloud-builders/mvn'
+#  args: ['install']
  - name: "gcr.io/cloud-builders/docker"
     args: ["build", "-t", "gcr.io/deep-thought-185318/checkout-test:$REVISION_ID", "-f", "Dockerfile", "."]
 images:
