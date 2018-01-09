@@ -1,0 +1,59 @@
+server:
+  port: 8093
+  
+spring:
+  profiles:
+    active:
+    - production
+  application:
+    name: cart-service
+    async:
+      request-timeout: 60000
+
+config:
+  ProflowersAddToCartStrategy:
+    site: pro
+    postURL: https://www.proflowers.com/product/webapi/StepFlowAPI/ValidateAndSubmitOrder
+    domain: www.proflowers.com
+  FTDAddToCartStrategy:
+    site: ftd
+    postURL: https://ordering.ftd.com/
+    domain: ordering.ftd.com
+  productService: 
+    dns: http://localhost:80
+    uri: /api/products/ids
+
+
+#Swagger configuartion
+swagger:
+  basePackage: com.ftd.cart
+  apiInfo: 
+    title: Cart Service API'S
+    description: Cart Service API'S reference for developers.
+    version: 1.0
+    termsOfServiceUrl: http://publicis.sapient.com/en-us.html
+    license: Cart service API License.
+    licenseUrl: http://publicis.sapient.com/en-us.html
+    contact: 
+      name: Sapient
+      url: http://publicis.sapient.com/en-us.html
+      email: no-reply@ftd.com
+    apiTemplateTag: 
+      name: Cart Service
+      description: All API's relating to cart service.
+    
+  
+---
+spring:
+  profiles: qa
+ 
+config:
+  ProflowersAddToCartStrategy:
+    site: pro
+    postURL: https://www.proflowers.com/product/webapi/StepFlowAPI/ValidateAndSubmitOrder
+    domain: www.proflowers.com
+  FTDAddToCartStrategy:
+    site: ftd
+    postURL: https://ordering.qa01.ftd.com/
+    domain: ordering.qa01.ftd.com
+

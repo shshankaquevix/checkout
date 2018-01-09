@@ -1,0 +1,87 @@
+{
+  "siteId": "FTD",
+  "product_type": "freshcut",
+  "country": "US",
+  "subcode": "FK639",
+  "product_id": "FALL1",
+  "product_price": 44.99,
+  "west_product": true,
+  "isMaster": true,
+  "pas_only_shipping_method": "Next-Day",
+  "isSameDay": false,
+  "markcode": "352",
+  "product_url": "best-sellers-pcg/count-your-blessings-fall-bouquet/product-bestsellers/fall1/",
+  "productSubTypes": [
+    {
+      "name": "Shown",
+      "price": "49.99",
+      "discountedPrice": "39.99"
+    },
+    {
+      "name": "Delux",
+      "price": "49.99",
+      "discountedPrice": "39.99"
+    }
+  ],
+  "addOns": [
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/C11_99x99.jpg",
+      "addon_text": "Add a Box of Chocolates and we will sweeten their day with a 4-piece box of sumptuous Godiva Chocolates to accompany your bouquet.",
+      "max_quantity": 1,
+      "desc": "Godiva 4 Piece Box of Chocolates",
+      "order": 1,
+      "id": "C11",
+      "price": "$8.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Chocolate"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/PB171_99x99.jpg",
+      "addon_text": "Make your gift even more special with this Happy Birthday bear.",
+      "max_quantity": 1,
+      "desc": "Happy Birthday Plush Bear",
+      "order": 2,
+      "id": "PB171",
+      "price": "$15.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Bear"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/K64_99x99.jpg",
+      "addon_text": "Yellow Happy Birthday Pick",
+      "max_quantity": 1,
+      "desc": "Yellow Happy Birthday Pick",
+      "order": 3,
+      "id": "K64",
+      "price": "$4.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Keepsake"
+    },
+    {
+      "show_price": "Y",
+      "is_default": "N",
+      "image": "https://www.ftdimg.com/pics/products/addons/J289X_99x99.jpg",
+      "addon_text": "Complete your gift by adding a .05 ct Diamond Heart Sterling Sliver Pendant.",
+      "max_quantity": 1,
+      "desc": "Diamond Heart Pendant",
+      "order": 4,
+      "id": "J289X",
+      "price": "$29.99",
+      "selected": 0,
+      "available": 1,
+      "type_desc": "Other"
+    }
+  ],
+  "catalog": "FTDDirect",
+  "gbb": true,
+  "product_name": "Count Your Blessings Fall Bouquet"
+}
