@@ -1,8 +1,8 @@
 steps:
-- name: 'gcr.io/cloud-builders/mvn'
-  args: ['clean']
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', 'gs://test1test/settings.xml', '~/.m2/']
+- name: 'gcr.io/cloud-builders/mvn'
+  args: ['deploy']
 - name: "gcr.io/cloud-builders/docker"
   args: ["build", "-t", "gcr.io/deep-thought-185318/checkout:$REVISION_ID", "-f", "Dockerfile", "."]
 images:

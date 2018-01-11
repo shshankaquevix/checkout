@@ -5,7 +5,7 @@
 
 	<groupId>com.ftd</groupId>
 	<artifactId>cart-checkout-service</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.6</version>
 	<packaging>jar</packaging>
 
 	<name>cart-checkout-service</name>
@@ -99,6 +99,12 @@
 			</plugin>
 		</plugins>
 	</build>
+       <distributionManagement>
+           <repository>
+                 <id>nexus</id>
+                 <url>http://35.185.85.217:8081/nexus/content/repositories/cart-checkout/</url>
+           </repository>
+        </distributionManagement>
 
 
 </project>
