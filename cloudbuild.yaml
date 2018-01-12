@@ -1,9 +1,9 @@
 steps:
 - name: 'gcr.io/cloud-builders/gsutil'
   args: ['cp', 'gs://test1test/settings.xml', '~/.m2/settings.xml']
--name:  'gcr.io/cloud-builders/gsutil'
+- name:  'gcr.io/cloud-builders/gsutil'
 	args: ['pwd']
--name:  'gcr.io/cloud-builders/gsutil'
+- name:  'gcr.io/cloud-builders/gsutil'
 	args: ['ls']
 - name: 'gcr.io/cloud-builders/mvn'
   args: ['deploy']
